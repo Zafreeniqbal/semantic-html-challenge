@@ -1,11 +1,77 @@
 /* CSS files add styling rules to your content */
 
-body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
-}
 
 h1 {
   font-style: italic;
   color: #373fff;
+}
+
+table {
+  border: 2px solid #800080;
+  text-align: center;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+caption {
+  text-align: end;
+  padding: 1px;
+  font-family: "Rock Salt", cursive;
+  font-size: 1em;
+}
+
+.header {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("assets/leopardskin.jpg");
+  background-size: cover;
+  font-family: "Rock Salt", cursive;
+  font-size: 1em;
+  color: white;
+}
+
+.footer {
+   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("assets/leopardskin.jpg");
+  background-size: cover;
+  font-family: "Rock Salt", cursive;
+  font-size: 1em;
+  color: white;
+}
+
+.header td {
+  padding: 20px;
+  border: 3px solid #800080;
+}
+
+.footer td {
+   padding: 20px;
+  border: 3px solid #800080;
+}
+
+.text {
+  text-align: end;
+}
+
+.total {
+  text-align: start;
+}
+
+tbody {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: centre;
+}
+
+tbody tr {
+  background-image: url("./assets/noise.png");
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #FF33CC;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+.body td {
+  padding: 10px;
 }
