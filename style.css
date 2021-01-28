@@ -19,6 +19,7 @@ caption {
   padding: 10px;
   font-family: "Rock Salt", cursive;
   font-size: 1em;
+  caption-side: bottom;
 }
 
 .header {
